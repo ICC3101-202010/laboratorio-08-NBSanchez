@@ -26,7 +26,7 @@ namespace Lab_08
         List<string> nomcine = new List<string>() { "CINE HOYTS", "CINE MARK", "CINE PLANET" };
         List<string> duecine = new List<string>() { "ELON MUSK", "BARACK OBAMA", "BILL CLINTON" };
         List<string> horcine = new List<string>() { "09:00-19:30", "10:00-21:00", "09:00-9:30" };
-        List<string> salascine = new List<string>() { "SI", "NO", "SI" };
+        List<string> salascine = new List<string>() { "12", "20", "9" };
         List<int> idcine = new List<int>() { 24, 708, 408 };
         List<string> nomrecre = new List<string>() { "EASY", "MAC", "BARBIE" };
         List<string> duerecre = new List<string>() { "JACK BLACK", "STEVE JOBS", "BARBARA WINTER" };
@@ -166,7 +166,7 @@ namespace Lab_08
                 cattienda.Add(tb_tiencategoria.Text);
                 idtienda.Add(random.Next(100, 400));
 
-                form2.SetNomTi(nomtienda);
+                
             }
         }
 
@@ -185,7 +185,7 @@ namespace Lab_08
                 horcine.Add(tb_horarioatencioncine.Text);
                 salascine.Add(tb_cantidadsalascine.Text);
                 idcine.Add(random.Next(0, 1000));
-                form2.SetNomCi(nomcine);
+                
 
             }
 
@@ -205,7 +205,7 @@ namespace Lab_08
                 duerecre.Add(tb_dueñorecrea.Text);
                 horrecre.Add(tb_horarioatencionrecrea.Text);
                 idrecre.Add(random.Next(0, 1000));
-                form2.SetNomRec(nomrecre);
+                
             }
 
         }
@@ -226,7 +226,7 @@ namespace Lab_08
                 horresta.Add(tb_horarioatencionresta.Text);
                 mesaresta.Add(tb_tipomesaresta.Text);
                 idresta.Add(random.Next(0, 1000));
-                form2.SetNomRe(nomresta);
+               
 
             }
 

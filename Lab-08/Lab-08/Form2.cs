@@ -66,7 +66,7 @@ namespace Lab_08
             int i = 1;
             for (int x = 0; x < allnom.Count(); x++)
             {
-                tb_todaslocal.Text = tb_todaslocal.Text + i + "  " + allnom[x] + "\n";
+                tb_todaslocal.Text =tb_todaslocal.Text +"\n" + i + ".-  " + allnom[x] + "\n";
                 i++;
             }
         }

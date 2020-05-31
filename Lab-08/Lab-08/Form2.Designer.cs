@@ -52,7 +52,7 @@
             this.tb_todaslocal.BackColor = System.Drawing.Color.Black;
             this.tb_todaslocal.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tb_todaslocal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_todaslocal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.tb_todaslocal.ForeColor = System.Drawing.Color.White;
             this.tb_todaslocal.Location = new System.Drawing.Point(12, 120);
             this.tb_todaslocal.Name = "tb_todaslocal";
             this.tb_todaslocal.Size = new System.Drawing.Size(401, 303);
